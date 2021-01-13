@@ -1,7 +1,7 @@
 .root {
   width: 50%;
   margin: auto;
-  background-color: #cccccc;
+  background-color: #f5f6fa;
   position: relative;
   height: 100vh;
   height: calc(var(--vh, 1vh) * 100);

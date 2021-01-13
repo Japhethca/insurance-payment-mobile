@@ -35,7 +35,7 @@ export default class Dashboard extends React.Component {
     const { paymentHistory, users } = this.state;
     return (
       <div className={styles.root}>
-        <Navbar users={users} currency={{name:'US Dollar'}} totalPayment="2009.45" />
+        <Navbar users={users} currency={{name:'US Dollar'}} totalPayment="1965.69" />
         <ListCard data={paymentHistory} />
         <TabNav />
       </div>

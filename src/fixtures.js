@@ -4,24 +4,24 @@ export const paymentHistory = [
       name: "Amazon",
       avatarURL: "",
     },
-    amount: "$20.90",
-    timestamp: "2018-01-01",
+    amount: "$185.90",
+    timestamp: "2021-01-12T07:54:00",
   },
   {
     user: {
       name: "John Doe",
       avatarURL: "",
     },
-    amount: "+$20.90",
-    timestamp: "2018-01-01",
+    amount: "+$1529.56",
+    timestamp: "2020-12-17T23:10:00",
   },
   {
     user: {
       name: "Jenifer Hertz",
       avatarURL: "",
     },
-    amount: "$20.90",
-    timestamp: "2018-01-01",
+    amount: "$250.23",
+    timestamp: "2020-12-17T12:24:00",
   },
 ];
 

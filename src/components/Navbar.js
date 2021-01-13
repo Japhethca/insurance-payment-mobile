@@ -23,7 +23,7 @@ export default class Navbar extends React.Component {
         <header className={styles.header}>
           <div style={{ display: "flex", alignItems: "center" }}>
             <Icon name="us-flag" style={{ paddingRight: "10px" }} />
-            <span>{currency.name}</span>
+            <span style={{fontWeight: 'bold'}}>{currency.name}</span>
           </div>
           <span style={{ display: "flex", alignItems: "center" }}>
             <Icon name="notification-new" style={{marginRight: '30px'}}/>
@@ -46,7 +46,7 @@ export default class Navbar extends React.Component {
         {users.length > 0 && (
           <div style={{ display: "flex", margin: "30px 15px", justifyContent: "center" }}>
             <span>
-              <Icon name="arrow-foward" style={{backgroundColor: '#a4de02', borderRadius: '20px',  padding: '10px'}} />
+              <Icon name="arrow-foward" style={{backgroundColor: '#a4de02', borderRadius: '20px',  padding: '10px', marginRight: '15px'}} />
             </span>
             <UserList users={users} />
           </div>
