@@ -1,0 +1,14 @@
+.root {
+  width: 50%;
+  margin: auto;
+  background-color: #cccccc;
+  position: relative;
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+}
+
+@media only screen and (max-width: 600px) {
+  .root {
+    width: 100%;
+  }
+}

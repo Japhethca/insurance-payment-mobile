@@ -1,0 +1,31 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    margin: 15px 10px;
+    padding: 5px;
+}
+
+.userTimestampWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.username {
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #222;
+    font-size: 1.2em;
+}
+
+.timestamp {
+    color: gray;    
+    font-size: .8em;
+}
+
+.amount {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #222;
+    margin-left: auto;
+    margin-right: 20px;
+}

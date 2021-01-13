@@ -1,0 +1,69 @@
+.wrapper {
+    background-color: #fff;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+    position: relative;
+}
+
+.maximizeWrapper {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    /* position: absolute;
+    bottom: 0;
+    width: 100%; */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.twodotsIcon {
+    transform: rotate(90deg);
+    padding-top: 15px;
+    /* padding-bottom: 5px; */
+}
+
+.amount {
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin: 10px;
+}
+
+.addBtnWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.addBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .5em;
+    border: 1px solid rgb(216, 215, 215);
+    border-radius: 15px;
+    padding: 4px 10px;
+    font-weight: 900;
+}
+
+.usersWrapper {
+    display: flex; 
+    margin: 30px 15px;
+    justify-content: center;  
+}
+
+@media only screen and (max-width: 600px) {
+    .usersWrapper {
+        justify-content: flex-start;
+    }
+  }
+  
