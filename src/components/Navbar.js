@@ -22,7 +22,7 @@ export default class Navbar extends React.Component {
       <div className={styles.wrapper}>
         <header className={styles.header}>
           <div style={{ display: "flex", alignItems: "center" }}>
-            <Icon name="us-flag" style={{ paddingRight: "10px" }} />
+            <Icon name="us-flag" style={{ paddingRight: "10px", maxWidth: '30px' }} />
             <span style={{fontWeight: 'bold'}}>{currency.name}</span>
           </div>
           <span style={{ display: "flex", alignItems: "center" }}>
