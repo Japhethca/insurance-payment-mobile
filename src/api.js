@@ -1,6 +1,6 @@
 import { paymentHistory, users } from './fixtures';
 
-const API_URL = '';
+// const API_URL = '';
 
 export function getPaymentHistory() {
     return paymentHistory;
