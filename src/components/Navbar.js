@@ -17,7 +17,7 @@ export default class Navbar extends React.Component {
   };
 
   renderMax() {
-    const { hasNotifications, currency, totalPayment, users } = this.props;
+    const {  currency, totalPayment, users } = this.props;
     return (
       <div className={styles.wrapper}>
         <header className={styles.header}>
